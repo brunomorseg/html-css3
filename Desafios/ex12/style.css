@@ -6,15 +6,24 @@
 
 * { margin: 0px; padding: 0px;}
 
+body {
+    min-height: 100vh;
+    min-height: 280px;
+
+}
+
 header {
     background-color: black;
+    min-width: 280px;
+   
+    
     
 }
 
 header > h1 {
     color: white;
     text-align: center;
-    font-size: 192px;
+    font-size: 10vw;
     font-family: 'Passion One', cursive;
     padding-top: 30px;
 }
@@ -45,9 +54,22 @@ header h2 a:hover {
 section#sec1 p {
     text-align: left;
     font-family: 'Sriracha', cursive;
-    font-size: 67px;
+    font-size: 3.5vw;
     padding-left: 30px;
     padding-top: 60px;
     padding-bottom: 120px;
+}
 
+section#img1 {
+    background-image: url('imagens/background001.jpg');
+}
+
+section#img1 p {
+    text-align: left;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    color: white;
 }
