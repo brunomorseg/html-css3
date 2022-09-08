@@ -99,7 +99,9 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.329);
     text-shadow: 1px 1px 0px black;
     padding: 32px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
    
 }
 
@@ -121,6 +123,11 @@ a{
     text-decoration: none;
     color: beige ;
     }
+
+footer a:hover {
+    background-color: rgba(142, 142, 168, 0.541);
+    text-decoration: underline;
+}
 
 
 
