@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption { 
+            background-color: rgba(128, 128, 128, 0.315);
+            padding: 10px;}
+
+        td, th{ 
+            border: 1px solid black;
+        }
+        th { 
+            background-color: gray;}
+        .num {
+            text-align: right;
+        }
+
+        tfoot {
+            background-color: gray;
+            color: black;   
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    
+    <!-- Anatomia para tabelas grandes
+    Table
+    Caption -> legenda da tabela; título
+        Thead
+            TR,TD,TH
+            TBody
+                TR,TD,TH
+                TFOOT
+                    TR,TD,TH
+    -->
+
+    <table>
+        <caption><strong>População das Unidades Federativas por Região</strong></caption>
+        <thead>
+                <tr>
+                        <th scope="col">Estado</th>
+                        <th scope="col" style="width: 150px ;">População</th>
+                </tr>
+
+        </thead>
+
+        <tbody>
+                <tr>
+                    <th scope="col"><strong>Região Sudeste</strong></th>
+                    <th></th>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td class="num" >45 919 049</td>
+                    </tr>
+                    <tr>
+                        <td>Minas Gerais</td>
+                        <td class="num">21 168 791</td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td class="num">17 264 943</td>
+                    </tr>
+                </tr>
+                <tr>
+                    <th scope="col">Centro-oeste</th>
+                    <th></th>
+                    <tr>
+                        <td>Goiás</td>
+                        <td class="num">6 003 788</td>
+                    </tr>
+                    <tr>
+                        <td>Mato Grosso</td>
+                        <td class="num">3 035 122 </td>
+                    </tr>
+                    <tr>
+                        <td>Mato Grosso do Sul</td>
+                        <td class="num">2 449 024</td>
+
+                    </tr>
+
+
+                </tr>
+
+
+
+
+
+        </tbody>
+
+        <tfoot>
+                <tr>
+                    <th scope="col">Total de Habitantes</th>
+                    <td class="num"><strong>95 840 717</strong></td>
+
+                </tr>
+
+        </tfoot>
+
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit iusto, ut quis nobis veritatis eius laudantium. Iusto provident praesentium inventore! Deleniti eum nemo voluptatum perspiciatis omnis minima eius beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic aspernatur laudantium, vero consequuntur rerum, reprehenderit facilis facere doloribus maxime a exercitationem optio autem! Repellat fuga quidem voluptates voluptatem eos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deleniti minima provident. Quae commodi, consectetur amet optio ipsum tenetur provident deleniti. Laudantium, illum! Animi aut pariatur fugiat earum ratione possimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis esse corporis architecto rerum doloribus quam illo ducimus repellendus a? Odio ipsa quidem tenetur iure autem odit vel voluptatum, fugiat itaque!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente odit, architecto at, porro atque repudiandae distinctio quasi, quidem animi deleniti illum ea nostrum ducimus optio sit magnam sed deserunt. Mollitia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, vitae. Quisquam ratione voluptatem at laboriosam, soluta nulla. Modi, consequatur! Temporibus quas dolore soluta suscipit voluptas aut quis veritatis enim dolores?</p>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, atque quam officiis dolores earum ipsa veritatis, quibusdam vitae doloremque ipsam consectetur, totam possimus sint ex molestiae nostrum optio. Sed, tempora? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique earum optio reprehenderit, itaque commodi officiis inventore magnam cumque eius aliquid voluptatem dolorem pariatur nesciunt facere impedit eligendi. Ratione, provident in!</p>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, alias inventore, excepturi provident, doloribus rem ipsam soluta hic atque placeat fuga tenetur beatae magnam molestiae! Aut error sunt corporis sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, suscipit illum maiores neque sapiente quisquam quod ad quae, id accusamus harum temporibus quasi minus magnam. Molestiae nulla omnis totam quibusdam!</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium fugiat doloribus ea, maxime praesentium eligendi error dolore harum? Odit dolor fuga ipsa. Recusandae accusamus quam culpa asperiores nisi quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores corrupti optio atque, dicta incidunt, quo necessitatibus quas impedit vel harum ex nemo aut a minima itaque placeat sunt neque veniam!</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi accusantium provident assumenda, aperiam, saepe optio, accusamus est velit porro deleniti tempora quo autem ratione error voluptatibus quae quod eaque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, iusto necessitatibus harum sapiente ab sequi, eligendi nulla ducimus earum molestias eos aliquam, ex iste inventore consequatur perferendis. Explicabo, fuga distinctio!</p>
+
+
+</body>
+</html>
